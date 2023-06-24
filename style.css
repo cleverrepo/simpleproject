@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header-text{
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding:1rem ;
+    text-decoration: underline;
+    box-shadow: 0 0 5px rgb(212, 205, 205);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.navbar .logo{
+    letter-spacing: 2px;
+}
+.nav {
+    display: flex;
+   
+}
+.nav ul{
+    margin: 15px;
+}
+.nav ul a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(3, 3, 34);
+}
+.right-menu{
+    display: flex;
+}
+.right-menu ul{
+    margin: 15px;
+    font-size: 1.5rem;
+}
+.right-menu ul a{
+    color: rgb(3, 3, 34);
+    text-decoration: none;
+}
+.model{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+.model h2{
+    font-size: 2rem;
+    color: rgb(3, 3, 34);
+
+}
+.model h4{
+    padding: 15px;
+    color: rgb(3, 3, 34);
+    
+}
+.btn  {
+    position:relative;
+    align-items: center;
+    justify-content:space-evenly;
+    display: flex;
+    text-align: center;
+    bottom: 0;
+   
+    
+    
+    
+   
+    
+}
+.btn .but{
+    height: 45px;
+    background-color: rgb(94, 92, 92);
+    width:10rem;
+    border-radius: 30px;
+    bottom: 0;
+    align-items: center;
+    border: none;
+}
+
+.btn .boot{
+    height: 45px;
+    background-color: rgb(170, 163, 163);
+    width:15rem;
+    border-radius: 30px;
+    bottom: 0;
+    align-items: center;
+    text-align: center;
+  border: none;
+}
+.btn{
+    
+
+}
